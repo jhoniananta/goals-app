@@ -4,17 +4,18 @@
     "slug": "goals-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/goal.png",
     "scheme": "goalsapp",
     "userInterfaceStyle": "automatic",
+    "backgroundColor": "#1e085a",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/goal.png",
+        "backgroundColor": "#1e085a"
       },
       "edgeToEdgeEnabled": true
     },
@@ -28,10 +29,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/goal.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#1e085a"
         }
       ]
     ],
